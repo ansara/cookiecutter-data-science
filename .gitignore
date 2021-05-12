@@ -1,9 +1,13 @@
 docs/site/
+venv/
 
-# OSX Junk
+# OSX
 .DS_Store
 
 # test cache
 .cache/*
 tests/__pycache__/*
 *.pytest_cache/
+
+# IDE
+.idea/
