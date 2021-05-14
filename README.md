@@ -4,9 +4,9 @@ This is my customized version of the DrivenData Data
 Science [cookiecutter](http://drivendata.github.io/cookiecutter-data-science/).
 
 It initializes a boilerplate repo for my ML and data engineering projects according to contemporary best practices and
-my preferences. Enjoy!
+my preferences. This is a WIP. Enjoy!
 
-### Changelog:
+### Changelog (Updated May 2021):
 -----------
 
 - Remove default MIT license
