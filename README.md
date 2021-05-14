@@ -9,6 +9,7 @@ my preferences. This is a WIP. Enjoy!
 ### Changelog (Updated May 2021):
 -----------
 
+- Change generated repo name format from 'foo_bar' to 'foo-bar'
 - Remove default MIT license
 - Removed Conda Package Manager support
 
