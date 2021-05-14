@@ -55,20 +55,6 @@ class TestCookieSetup(object):
         p = check_output(args).decode('ascii').strip()
         assert p == '0.1.0'
 
-    def test_license(self):
-        license_path = self.path / 'LICENSE'
-        assert license_path.exists()
-        assert no_curlies(license_path)
-
-    def test_license_type(self):
-        setup_ = self.path / 'setup.py'
-        args = ['python', str(setup_), '--license']
-        p = check_output(args).decode('ascii').strip()
-        if pytest.param.get('open_source_license'):
-            assert p == 'BSD-3'
-        else:
-            assert p == 'MIT'
-
     def test_requirements(self):
         reqs_path = self.path / 'requirements.txt'
         assert reqs_path.exists()
@@ -110,4 +96,3 @@ class TestCookieSetup(object):
         abs_expected_dirs = [str(self.path / d) for d in expected_dirs]
         abs_dirs, _, _ = list(zip(*os.walk(self.path)))
         assert len(set(abs_expected_dirs + ignored_dirs) - set(abs_dirs)) == 0
-

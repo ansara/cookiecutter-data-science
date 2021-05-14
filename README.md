@@ -9,8 +9,8 @@ my preferences. Enjoy!
 ### Changelog:
 -----------
 
+- Remove default MIT license
 - Removed Conda Package Manager support
-
 
 ### Requirements:
 -----------
