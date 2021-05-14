@@ -9,7 +9,7 @@ my preferences. Enjoy!
 ### Changelog:
 -----------
 
-- Removed Conda Package Manager virtual environment support
+- Removed Conda Package Manager support
 
 
 ### Requirements:
