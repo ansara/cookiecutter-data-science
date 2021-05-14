@@ -6,6 +6,12 @@ Science [cookiecutter](http://drivendata.github.io/cookiecutter-data-science/).
 It initializes a boilerplate repo for my ML and data engineering projects according to contemporary best practices and
 my preferences. Enjoy!
 
+### Changelog:
+-----------
+
+- Removed Conda Package Manager virtual environment support
+
+
 ### Requirements:
 -----------
 
