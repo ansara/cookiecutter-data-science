@@ -3,6 +3,7 @@
 
 # external requirements
 click
+dvc
 Sphinx
 coverage
 awscli

@@ -58,7 +58,8 @@ create_environment:
 version_control:
 	@bash -c "git init"
 	@echo ">>> New git repo initialized."
-
+	@bash -c "source venv/bin/activate; pip install dvc; dvc init"
+	@bash -c "DVC initialized."
 
 
 ## Test python environment is setup correctly

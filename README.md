@@ -9,6 +9,7 @@ my preferences. This is a WIP. Enjoy!
 ### Changelog (Updated May 2021):
 -----------
 
+- Add [DVC](https://github.com/iterative/dvc) data version control
 - Add Makefile rule 'version_control' for version control initialization
 - Set Python 3 venv module as default virtual environment
 - Add Python 3.7, 3.8, and 3.9 interpreter specifications
