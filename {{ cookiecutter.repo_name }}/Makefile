@@ -52,7 +52,13 @@ endif
 create_environment:
 	$(PYTHON_INTERPRETER) -m venv venv
 	@echo ">>> New virtual environment created using python3 venv module. Activating environment."
-	@bash -c source venv/bin/activate
+	@bash -c "source venv/bin/activate"
+
+## Set up project version control with Git and DVC
+version_control:
+	@bash -c "git init"
+	@echo ">>> New git repo initialized."
+
 
 
 ## Test python environment is setup correctly

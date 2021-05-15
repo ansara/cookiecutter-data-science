@@ -9,6 +9,7 @@ my preferences. This is a WIP. Enjoy!
 ### Changelog (Updated May 2021):
 -----------
 
+- Add Makefile rule 'version_control' for version control initialization
 - Set Python 3 venv module as default virtual environment
 - Add Python 3.7, 3.8, and 3.9 interpreter specifications
 - Remove Python 2 interpreter support
@@ -47,7 +48,6 @@ scripts/automation you have to append the `-c v1` option (as above), which is av
 The directory structure of your new project looks like this:
 
 ```
-├── LICENSE
 ├── Makefile           <- Makefile with commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
