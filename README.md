@@ -9,6 +9,8 @@ my preferences. This is a WIP. Enjoy!
 ### Changelog (Updated May 2021):
 -----------
 
+- Add Python 3.7, 3.8, and 3.9 interpreter specifications
+- Remove Python2 interpreter support
 - Change generated repo name format from 'foo_bar' to 'foo-bar'
 - Remove default MIT license
 - Removed Conda Package Manager support
@@ -16,7 +18,7 @@ my preferences. This is a WIP. Enjoy!
 ### Requirements:
 -----------
 
-- Python 2.7 or 3.5+
+- Python 3.6+
 - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0
 
 ``` bash
