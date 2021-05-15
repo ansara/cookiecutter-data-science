@@ -9,8 +9,9 @@ my preferences. This is a WIP. Enjoy!
 ### Changelog (Updated May 2021):
 -----------
 
+- Set Python 3 venv module as default virtual environment
 - Add Python 3.7, 3.8, and 3.9 interpreter specifications
-- Remove Python2 interpreter support
+- Remove Python 2 interpreter support
 - Change generated repo name format from 'foo_bar' to 'foo-bar'
 - Remove default MIT license
 - Removed Conda Package Manager support
